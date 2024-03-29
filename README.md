@@ -1,4 +1,4 @@
-# Friday AI
+# Friday AI - Inspired by [Ai-Austin](https://github.com/Ai-Austin)
 This is a 100% offline AI Voice Assistant. Completely open source and privacy friendly. Use any language model on GPT4ALL. 
 
 ## Setup
