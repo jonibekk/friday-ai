@@ -81,16 +81,12 @@ def turn_off_microphone():
     mic_muted = True
 
 def start_transcription():
-    global transcribing
-    transcribing = True
     turn_on_microphone()
     
     print("Listening...")
     speak("Hi... I am listening.")
 
 def stop_transcription():
-    global transcribing
-    transcribing = False
     turn_off_microphone()
 
     print("Microphone is on mute!")
