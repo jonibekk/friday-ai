@@ -41,7 +41,7 @@ def recognize_speech():
 
                 if wake_word in transcription.lower():
                     start_transcription()
-                elif "mute" in transcription.lower() or "stop" in transcription.lower() or "stop talking" in transcription.lower() or "shut up" in transcription.lower():
+                elif "mute" in transcription.lower() or "stop talking" in transcription.lower():
                     stop_transcription()
                 elif "go to sleep" in transcription.lower():
                     print("Application is going to sleep.")
